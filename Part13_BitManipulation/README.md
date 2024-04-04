@@ -96,6 +96,9 @@ Ans. Hint: ![Loop will be run to check LSB and update the count if 1, then right
 # Fast Exponentiation
 An algorithms that compute a number raised to a power much faster than simply multiplying the base by itself repeatedly i.e., bringing down the time complexity of O(n) (in naive approach) -> O(log n)
 Example : a ^ (5)
-1. Convert power raised to the base into binary form a ^ (101)
-2. Now associating every bit in this binary form with a multiple of power 2 with same bas. ![Expnanation](FEa.png)
+1. Convert power raised to the base into binary form: a ^ (101)
+2. Now associating every bit in this binary form with a power of multiple 2 with same bas. ![Expnanation](FE   a.png)
 3. As we go from left to right, we calculate the overall product by multiplying bits and powers associated with them (where bit is 0, we take this its multiplication as 1 in overall product)
+* Reference Video - https://www.youtube.com/watch?v=NxCDVNECMZI&t=24s
+
+   - ![Solution](fastExponentiation.png)
